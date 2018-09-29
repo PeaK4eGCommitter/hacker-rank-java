@@ -1,4 +1,4 @@
-package HelloWorld;
+package easy.HelloWorld;
 
 public class Solution {
 
