@@ -5,8 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 class Solution{
-    public static void main(String []argh)
-    {
+    public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int n=in.nextInt();
         in.nextLine();
