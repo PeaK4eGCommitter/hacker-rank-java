@@ -44,8 +44,9 @@ public class Solution {
                         String userRole = family.userRole();
                         int budgetLimit = family.budgetLimit();
                         if (userRole.equals(role)) {
-                            if(budgetLimit > spend){
-                                method.invoke(FamilyMember.class.newInstance(), budgetLimit, spend);
+                            if(budgetLimit >= spend){
+                                method.invoke(FamilyMember.class.newInstance(),
+                                        budgetLimit, spend);
                             }else{
                                 System.out.println("Budget Limit Over");
                             }
